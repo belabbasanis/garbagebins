@@ -1,0 +1,24 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_bd_1140_14233)">
+<rect x="16" y="8" width="24" height="24" rx="12" fill="url(#paint0_radial_1140_14233)" shape-rendering="crispEdges"/>
+</g>
+<path d="M29.8269 18L29.5962 24M26.4038 24L26.1731 18M32.8184 15.8604C33.0464 15.8948 33.2736 15.9316 33.5 15.9709M32.8184 15.8604L32.1065 25.115C32.0464 25.8965 31.3948 26.5 30.611 26.5H25.389C24.6052 26.5 23.9536 25.8965 23.8935 25.115L23.1816 15.8604M32.8184 15.8604C32.0542 15.745 31.281 15.6566 30.5 15.5962M22.5 15.9709C22.7264 15.9316 22.9536 15.8948 23.1816 15.8604M23.1816 15.8604C23.9459 15.745 24.719 15.6566 25.5 15.5962M30.5 15.5962V14.9855C30.5 14.1992 29.8929 13.5428 29.1071 13.5177C28.7395 13.5059 28.3704 13.5 28 13.5C27.6296 13.5 27.2605 13.5059 26.8929 13.5177C26.1071 13.5428 25.5 14.1992 25.5 14.9855V15.5962M30.5 15.5962C29.675 15.5325 28.8413 15.5 28 15.5C27.1587 15.5 26.325 15.5325 25.5 15.5962" stroke="white" stroke-width="0.96" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_bd_1140_14233" x="-14" y="-22" width="84" height="84" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="15"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1140_14233"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="8"/>
+<feGaussianBlur stdDeviation="8"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.772549 0 0 0 0 0.25098 0 0 0 0.05 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_1140_14233" result="effect2_dropShadow_1140_14233"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1140_14233" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_1140_14233" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16 8) rotate(45) scale(33.9411 77.9249)">
+<stop stop-color="#FFC53F" stop-opacity="0.9"/>
+<stop offset="1" stop-color="#FFC53F" stop-opacity="0.6"/>
+</radialGradient>
+</defs>
+</svg>

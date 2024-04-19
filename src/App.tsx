@@ -1,26 +1,18 @@
+// src/App.tsx
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useGarbageBins } from './components/Map/useGarbageBins';
+import 'leaflet/dist/leaflet.css';
 
-function App() {
+import { LatLngTuple } from 'leaflet';
+import MapContainer from './components/Map/MapContainer';
+
+const App = () => {
+  const defaultLocation: LatLngTuple = [45.5017, -73.5673]; // Coordinates for Montreal, Canada
+  const garbageBins = useGarbageBins();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MapContainer defaultLocation={defaultLocation} garbageBins={garbageBins} />
   );
-}
+};
 
 export default App;
